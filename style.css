@@ -1,0 +1,56 @@
+/* *{
+  border-style: solid;
+  border-color: green;
+} */
+
+
+body{
+ background-color: #ECEEF1;
+ font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+
+/* Sign in button*/
+
+button{
+background-color: #0077C5;
+display: block;
+float:right;
+width: 103px;
+height: 34px;
+border-radius: 4px;
+border-color: black;
+border-style: solid;
+border-width: thin;
+}
+
+.account{
+display: inline-block;
+
+}
+
+header{
+width: 300px;
+float: right;
+padding-right: 30px;
+}
+
+.sign_in{
+color: white;
+}
+
+.account_have{
+float: right;
+font-size: 12px;
+color:#505050;
+}
+
+.account_forgot{
+color: #3077D3;
+float: right;
+font-size: 12px;
+}
+.fa-lock{
+color:white;
+
+}
