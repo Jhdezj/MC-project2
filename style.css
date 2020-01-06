@@ -176,7 +176,12 @@ background-color: blue;
 display: block;
 margin-left: auto;
 margin-right: auto;
-
+width: 326px;
+padding-top: 10px;
+padding-bottom: 10px;
+background-color: #0077C5;
+color:white;
+border-radius: 4px;
 }
 
   /* CODE TO PLACE IN ORDER */
@@ -189,6 +194,4 @@ margin-right: auto;
     margin-top:40px;
     margin-bottom: 0px;
     font-size: 14px;
-
-
   }
