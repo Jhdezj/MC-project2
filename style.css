@@ -1,6 +1,6 @@
  *{
-  border-style: solid;
-  border-color: green;
+border-style: solid;
+border-color: green;
 }
 
 
@@ -51,6 +51,7 @@ color: #3077D3;
 float: right;
 font-size: 12px;
 }
+
 .fa-lock{
 color:white;
 
@@ -63,11 +64,10 @@ color:white;
   font-size:24px;
 }
 .text-account{
-margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .main_info{
-
   clear:both;
   width: 380px;
   margin-left: auto;
@@ -96,11 +96,19 @@ border-radius: 3px;
   border-radius: 3px;
 }
 
+.login-standard{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  text-align: left;
+  color: #797979;
+}
+
+
+
 .password{
   display: block;
   margin-left:auto;
   margin-right:auto;
-
   border: 1px solid #c1c5c8;
   width: 320px;
   font-size: 16px;
@@ -132,13 +140,11 @@ border-radius: 3px;
 
 .resize-flav{
   width:24px;
-
 }
 
 
 resize-flav-text{
   width:470px;
-
 }
 
 .loginform{
@@ -167,10 +173,7 @@ background-color: blue;
   margin-top: 0;
   }
 
-  .loginform :nth-child(4){
 
-
-  }
 
 .create_btn{
 display: block;
@@ -192,6 +195,47 @@ border-radius: 4px;
     margin-left:auto;
     margin-right:auto;
     margin-top:40px;
-    margin-bottom: 0px;
+    margin-bottom: 8px;
     font-size: 14px;
+    font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    color: #777777;
+    font-weight:lighter;
   }
+
+  .final-login-info{
+    font-family:AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif; ;
+    font-size: 17px;
+    color: #797979;
+    text-align: center;
+  }
+
+  .end-footerInvisible{
+background-color: #dbdbdb;
+font-size: 8px;
+  }
+
+.blue-text{
+  color:blue;
+}
+
+
+.final-span-wrap{
+  text-align: center;
+  width:100%;
+}
+.final-first-line{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  text-align: center;
+  width:100%;
+}
+
+.second-final-line{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  width: 100%;
+  margin-left:auto;
+  margin-right:auto;
+}
