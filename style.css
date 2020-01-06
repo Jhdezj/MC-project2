@@ -1,67 +1,57 @@
- *{
-border-style: solid;
-border-color: green;
-}
-
-
 body{
- background-color: #ECEEF1;
- font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
-
+  background-color: #ECEEF1;
+  font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
-
 
 /* Sign in button*/
-
 .sign_in_btn{
-background-color: #0077C5;
-display: block;
-float:right;
-width: 103px;
-height: 34px;
-border-radius: 4px;
-border-color: black;
-border-style: solid;
-border-width: thin;
+  background-color: #0077C5;
+  border-color: black;
+  border-radius: 4px;
+  border-style: solid;
+  border-width: thin;
+  display: block;
+  float:right;
+  height: 34px;
+  width: 103px;
 }
 
 .account{
-display: inline-block;
+  display: inline-block;
 
 }
 
 header{
-width: 300px;
-float: right;
-padding-right: 30px;
+  float: right;
+  padding-right: 30px;
+  width: 300px;
 }
 
 .sign_in{
-color: white;
+  color: white;
 }
 
 .account_have{
-float: right;
-font-size: 12px;
 color:#505050;
+  float: right;
+  font-size: 12px;
 }
 
 .account_forgot{
-color: #3077D3;
-float: right;
-font-size: 12px;
+  color: #3077D3;
+  float: right;
+  font-size: 12px;
 }
 
 .fa-lock{
-color:white;
-
+  color:white;
 }
 
 
 /* LOGIN FORM*/
 .title{
+font-size:24px;
   text-align:center;
-  font-size:24px;
 }
 .text-account{
   margin-bottom: 0;
@@ -69,173 +59,192 @@ color:white;
 
 .main_info{
   clear:both;
-  width: 380px;
   margin-left: auto;
   margin-right: auto;
+  width: 380px;
 }
 
 .email{
-display: block;
-border: 1px solid #c1c5c8;
-width: 320px;
-margin-left:auto;
-margin-right:auto;
-font-size: 16px;
-height: 32px;
-border-radius: 3px;
+  border: 1px solid #c1c5c8;
+  border-radius: 3px;
+  display: block;
+  font-size: 16px;
+  height: 32px;
+  margin-left:auto;
+  margin-right:auto;
+  width: 320px;
 }
 
 .phone{
-  display: block;
   border: 1px solid #c1c5c8;
-  width: 320px;
-  margin-left:auto;
-  margin-right:auto;
+  border-radius: 3px;
+  display: block;
   font-size: 16px;
   height: 32px;
-  border-radius: 3px;
+  margin-left:auto;
+  margin-right:auto;
+  width: 320px;
 }
 
 .login-standard{
+  color: #797979;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:0;
   text-align: left;
-  color: #797979;
+  width: 326px;
 }
 
 
 
 .password{
+border: 1px solid #c1c5c8;
+  border-radius: 3px;
   display: block;
+font-size: 16px;
+height: 32px;
   margin-left:auto;
   margin-right:auto;
-  border: 1px solid #c1c5c8;
   width: 320px;
-  font-size: 16px;
-  height: 32px;
-  border-radius: 3px;
 }
 
 /* Images */
 
 
 .logo-header{
-  position:relative;
-  display:block;
   box-sizing: border-box;
-  width:100%;
+  display:block;
+  position:relative;
   text-align: center;
+  width:100%;
 }
 
 .header-intuit--logo{
-  text-align: center;
-  font-weight: 400;
   box-sizing: border-box;
-
+  font-weight: 400;
+text-align: center;
   width:121px;
 
-}.logo-links{
-  text-align: center;
-}
+  }.logo-links{
+    text-align: center;
+  }
 
-.resize-flav{
-  width:24px;
-}
-
-
-resize-flav-text{
-  width:470px;
-}
-
-.loginform{
-background-color:white;
-}
+  .resize-flav{
+    width:24px;
+  }
 
 
-.loginform:first-child{
-font-size: 24px;
+  resize-flav-text{
+    width:470px;
+  }
+
+  .loginform{
+    background-color:white;
+    border-color:lightgray;
+    border-style: solid;
+    border-width: thin;
+  }
+
+
+  .loginform:first-child{
 background-color: blue;
-}
+    font-size: 24px;
 
-.loginform :nth-child(2){
-  font-size: 14px;
-  font-weight: 300;
-  text-align: center;
-  outline:none;
-  white-space:nowrap;
+  }
+
+  .loginform :nth-child(2){
+    font-size: 14px;
+    font-weight: 300;
+outline:none;
+    text-align: center;
+    white-space:nowrap;
   }
 
   .loginform :nth-child(3){
-  font-size: 14px;
-  text-align: center;
-  color: blue;
-  vertical-align: top;
-  margin-top: 0;
+color: blue;
+    font-size: 14px;
+margin-top: 0;
+    text-align: center;
+
+    vertical-align: top;
+
   }
 
 
 
-.create_btn{
-display: block;
-margin-left: auto;
-margin-right: auto;
-width: 326px;
-padding-top: 10px;
-padding-bottom: 10px;
+  .create_btn{
 background-color: #0077C5;
-color:white;
 border-radius: 4px;
-}
+color:white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+padding-bottom: 10px;
+    padding-top: 10px;
+width: 326px;
+  }
 
   /* CODE TO PLACE IN ORDER */
   .input-text{
-    display:block;
-    max-width: 326px;
     box-sizing: border-box;
+    color: #777777;
+    display:block;
+    font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight:lighter;
+    margin-bottom: 8px;
     margin-left:auto;
     margin-right:auto;
     margin-top:40px;
-    margin-bottom: 8px;
-    font-size: 14px;
-    font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
-    font-size: 16px;
-    color: #777777;
-    font-weight:lighter;
+    max-width: 326px;
   }
 
   .final-login-info{
+    color: #797979;
     font-family:AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif; ;
     font-size: 17px;
-    color: #797979;
     text-align: center;
   }
 
   .end-footerInvisible{
-background-color: #dbdbdb;
-font-size: 8px;
+    background-color: #dbdbdb;
+    font-size: 8px;
+    margin-bottom: 0;
+    padding-bottom: 15px;
+    padding-top: 15px;
+
   }
 
-.blue-text{
-  color:blue;
-}
+  .blue-text{
+    color:blue;
+  }
 
 
-.final-span-wrap{
-  text-align: center;
-  width:100%;
-}
-.final-first-line{
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: small;
-  text-align: center;
-  width:100%;
-}
+  .final-span-wrap{
+    color:blue;
+    text-align: center;
+    width:100%;
+  }
+  .final-first-line{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+    width:100%;
 
-.second-final-line{
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: small;
-  width: 100%;
-  margin-left:auto;
-  margin-right:auto;
-}
+
+  }
+
+  .second-final-line{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    margin-bottom: 0;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 0;
+    text-align: center;
+    width: 100%;
+  }
