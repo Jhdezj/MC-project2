@@ -59,13 +59,32 @@ color:white;
 /* LOGIN FORM*/
 
 .main_info{
-  clear:right;
+  clear:both;
   width: 380px;
   margin-left: auto;
   margin-right: auto;
-
 }
 
+.email{
+display: block;
+margin: auto;
+border-color: red;
+width: 320px;
+}
+
+.phone{
+  display: block;
+  margin: auto;
+  border-color: red;
+  width: 320px;
+}
+
+.password{
+  display: block;
+  margin: auto;
+  border-color: red;
+  width: 320px;
+}
 
 /* Images */
 
@@ -109,6 +128,7 @@ background-color:white;
 font-size: 24px;
 text-align: center;
 
+
 }
 
 .loginform :nth-child(2){
@@ -130,4 +150,6 @@ text-align: center;
   .loginform :nth-child(4){
   font-size: 10px;
   color: blue;
+  width: 320px;
+  margin: auto;
   }
