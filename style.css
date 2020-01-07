@@ -116,18 +116,22 @@ font-size:24px;
 
 /* Images */
 .logo-header{
-  box-sizing: border-box;
+  box-sizing: content-box;
   display:block;
   position:relative;
   text-align: center;
   width:100%;
+
 }
 
 .header-intuit--logo{
-  box-sizing: border-box;
+  box-sizing: content-box;
   font-weight: 400;
   text-align: center;
-  width:121px;
+  width:180px;
+  height:70px;
+
+
   }
 
   .logo-links{
@@ -156,7 +160,7 @@ font-size:24px;
   }
 
   .loginform :nth-child(2){
-    font-size: 14px;
+   
     font-weight: 300;
     outline:none;
     text-align: center;
@@ -172,15 +176,18 @@ font-size:24px;
   }
 
   .create_btn{
+    font-size: 15px;
+    font-weight:bolder;
     background-color: #0077C5;
     border-radius: 4px;
     color:white;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    padding-bottom: 0px;
+    padding-top: 0px;
     width: 326px;
+    line-height:50px;
   }
 
   /* code to place in order */
@@ -200,14 +207,22 @@ font-size:24px;
 
   .final-login-info{
     color: #797979;
+    margin-top: 40px;
     font-family:AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif; ;
-    font-size: 17px;
+    font-size: 12px;
     text-align: center;
+    line-height: 21px;
+    width:72%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:0px;
+
+    
   }
 
   .end-footerInvisible{
     background-color: #dbdbdb;
-    font-size: 8px;
+    font-size: 10px;
     margin-bottom: 0;
     padding-bottom: 15px;
     padding-top: 15px;
@@ -216,6 +231,7 @@ font-size:24px;
 
   .blue-text{
     color:blue;
+    font-size:12px;
   }
 
   .final-span-wrap{
@@ -242,3 +258,10 @@ font-size:24px;
     text-align: center;
     width: 100%;
   }
+
+
+.lastitem{
+  margin-top:0px;
+  text-align: center;
+  font-size: 10px;;
+}
