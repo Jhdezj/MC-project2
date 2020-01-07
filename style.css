@@ -1,267 +1,253 @@
-body{
-  background-color: #ECEEF1;
-  font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
+body {
+  background-color: #eceef1;
+  font-family: AvenirNext, Avenir, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
-/* Sign in button chracters*/
-.sign_in_btn{
-  background-color: #0077C5;
+/* Sign in button chracters */
+.sign_in_btn {
+  background-color: #0077c5;
   border-color: black;
   border-radius: 4px;
   border-style: solid;
   border-width: thin;
   display: block;
-  float:right;
+  float: right;
   height: 34px;
   width: 103px;
 }
 
-.account{
+.account {
   display: inline-block;
 }
 
-header{
+header {
   float: right;
   padding-right: 30px;
   width: 300px;
 }
 
-.sign_in{
+.sign_in {
   color: white;
 }
 
-.account_have{
-color:#505050;
+.account_have {
+  color: #505050;
   float: right;
   font-size: 12px;
 }
 
-.account_forgot{
-  color: #3077D3;
+.account_forgot {
+  color: #3077d3;
   float: right;
   font-size: 12px;
 }
 
-.fa-lock{
-  color:white;
+.fa-lock {
+  color: white;
 }
 
-.mint-flavicon-text{
-padding-bottom:5px;
+.mint-flavicon-text {
+  padding-bottom: 5px;
 }
 
-.turbo-flavicon-text{
-padding-bottom:5px;
+.turbo-flavicon-text {
+  padding-bottom: 5px;
 }
 
-/* Login Form*/
-.title{
-font-size:24px;
-  text-align:center;
+/* Login Form */
+.title {
+  font-size: 24px;
+  text-align: center;
 }
-.text-account{
+
+.text-account {
   margin-bottom: 0;
 }
 
-.main_info{
-  clear:both;
+.main_info {
+  clear: both;
   margin-left: auto;
   margin-right: auto;
   width: 380px;
 }
 
-.email{
+.email {
   border: 1px solid #c1c5c8;
   border-radius: 3px;
   display: block;
   font-size: 16px;
   height: 32px;
-  margin-left:auto;
-  margin-right:auto;
+  margin-left: auto;
+  margin-right: auto;
   width: 320px;
 }
 
-.phone{
+.phone {
   border: 1px solid #c1c5c8;
   border-radius: 3px;
   display: block;
   font-size: 16px;
   height: 32px;
-  margin-left:auto;
-  margin-right:auto;
+  margin-left: auto;
+  margin-right: auto;
   width: 320px;
 }
 
-.login-standard{
+.login-standard {
   color: #797979;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 10px;
   margin-left: auto;
   margin-right: auto;
-  margin-top:0;
+  margin-top: 0;
   text-align: left;
   width: 326px;
 }
 
-.password{
+.password {
   border: 1px solid #c1c5c8;
   border-radius: 3px;
   display: block;
   font-size: 16px;
   height: 32px;
-  margin-left:auto;
-  margin-right:auto;
+  margin-left: auto;
+  margin-right: auto;
   width: 320px;
 }
 
 /* Images */
-.logo-header{
+.logo-header {
   box-sizing: content-box;
-  display:block;
-  position:relative;
+  display: block;
+  position: relative;
   text-align: center;
-  width:100%;
-
+  width: 100%;
 }
 
-.header-intuit--logo{
+.header-intuit--logo {
   box-sizing: content-box;
   font-weight: 400;
+  height: 70px;
   text-align: center;
-  width:180px;
-  height:70px;
+  width: 180px;
+}
 
-
-  }
-
-  .logo-links{
-    padding-bottom: 15px;
-    text-align: center;
-  }
-
-  .resize-flav{
-    width:24px;
-  }
-
-  .resize-flav-text{
-    font-size: 16px;
-  }
-
-  .loginform{
-    background-color:white;
-    border-color:lightgray;
-    border-style: solid;
-    border-width: thin;
-  }
-
-  .loginform:first-child{
-    background-color: blue;
-    font-size: 24px;
-  }
-
-  .loginform :nth-child(2){
-   
-    font-weight: 300;
-    outline:none;
-    text-align: center;
-    white-space:nowrap;
-  }
-
-  .loginform :nth-child(3){
-    color: blue;
-    font-size: 14px;
-    margin-top: 0;
-    text-align: center;
-    vertical-align: top;
-  }
-
-  .create_btn{
-    font-size: 15px;
-    font-weight:bolder;
-    background-color: #0077C5;
-    border-radius: 4px;
-    color:white;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 0px;
-    padding-top: 0px;
-    width: 326px;
-    line-height:50px;
-  }
-
-  /* code to place in order */
-  .input-text{
-    box-sizing: border-box;
-    color: #777777;
-    display:block;
-    font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
-    font-size: 16px;
-    font-weight:lighter;
-    margin-bottom: 8px;
-    margin-left:auto;
-    margin-right:auto;
-    margin-top:40px;
-    max-width: 326px;
-  }
-
-  .final-login-info{
-    color: #797979;
-    margin-top: 40px;
-    font-family:AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif; ;
-    font-size: 12px;
-    text-align: center;
-    line-height: 21px;
-    width:72%;
-    margin-left:auto;
-    margin-right:auto;
-    margin-bottom:0px;
-
-    
-  }
-
-  .end-footerInvisible{
-    background-color: #dbdbdb;
-    font-size: 10px;
-    margin-bottom: 0;
-    padding-bottom: 15px;
-    padding-top: 15px;
-    text-align: center;
-  }
-
-  .blue-text{
-    color:blue;
-    font-size:12px;
-  }
-
-  .final-span-wrap{
-    color:blue;
-    text-align: center;
-    width:100%;
-  }
-  .final-first-line{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: small;
-    margin-bottom: 0;
-    margin-top: 0;
-    text-align: center;
-    width:100%;
-  }
-
-  .second-final-line{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: small;
-    margin-bottom: 0;
-    margin-left:auto;
-    margin-right:auto;
-    margin-top: 0;
-    text-align: center;
-    width: 100%;
-  }
-
-
-.lastitem{
-  margin-top:0px;
+.logo-links {
+  padding-bottom: 15px;
   text-align: center;
-  font-size: 10px;;
+}
+
+.resize-flav {
+  width: 24px;
+}
+
+.resize-flav-text {
+  font-size: 16px;
+}
+
+.loginform {
+  background-color: white;
+  border-color: lightgray;
+  border-style: solid;
+  border-width: thin;
+}
+
+.loginform:first-child {
+  background-color: blue;
+  font-size: 24px;
+}
+
+.loginform :nth-child(2) {
+  font-weight: 300;
+  outline: none;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.loginform :nth-child(3) {
+  color: blue;
+  font-size: 14px;
+  margin-top: 0;
+  text-align: center;
+  vertical-align: top;
+}
+
+.create_btn {
+  background-color: #0077c5;
+  border-radius: 4px;
+  color: white;
+  display: block;
+  font-size: 15px;
+  font-weight: bolder;
+  line-height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 0;
+  padding-top: 0;
+  width: 326px;
+}
+
+/* code to place in order */
+.input-text {
+  box-sizing: border-box;
+  color: #777;
+  display: block;
+  font-family: AvenirNext, Avenir, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+  margin: 40px auto 8px auto;
+  max-width: 326px;
+}
+
+.final-login-info {
+  color: #797979;
+  font-family: AvenirNext, Avenir, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  line-height: 21px;
+  margin: 40px auto 0 auto;
+  text-align: center;
+  width: 72%;
+}
+
+.end-footerInvisible {
+  background-color: #dbdbdb;
+  font-size: 10px;
+  margin-bottom: 0;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  text-align: center;
+}
+
+.blue-text {
+  color: blue;
+  font-size: 12px;
+}
+
+.final-span-wrap {
+  color: blue;
+  text-align: center;
+  width: 100%;
+}
+
+.final-first-line {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  margin-bottom: 0;
+  margin-top: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.second-final-line {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  margin: 0 auto 0 auto;
+  text-align: center;
+  width: 100%;
+}
+
+.lastitem {
+  font-size: 10px;
+  margin-top: 0;
+  text-align: center;
 }
