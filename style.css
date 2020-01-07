@@ -18,7 +18,6 @@ body{
 
 .account{
   display: inline-block;
-
 }
 
 header{
@@ -47,8 +46,7 @@ color:#505050;
   color:white;
 }
 
-
-/* LOGIN FORM*/
+/* Login Form*/
 .title{
 font-size:24px;
   text-align:center;
@@ -97,22 +95,18 @@ font-size:24px;
   width: 326px;
 }
 
-
-
 .password{
-border: 1px solid #c1c5c8;
+  border: 1px solid #c1c5c8;
   border-radius: 3px;
   display: block;
-font-size: 16px;
-height: 32px;
+  font-size: 16px;
+  height: 32px;
   margin-left:auto;
   margin-right:auto;
   width: 320px;
 }
 
 /* Images */
-
-
 .logo-header{
   box-sizing: border-box;
   display:block;
@@ -124,17 +118,17 @@ height: 32px;
 .header-intuit--logo{
   box-sizing: border-box;
   font-weight: 400;
-text-align: center;
+  text-align: center;
   width:121px;
+  }
 
-  }.logo-links{
+  .logo-links{
     text-align: center;
   }
 
   .resize-flav{
     width:24px;
   }
-
 
   resize-flav-text{
     width:470px;
@@ -147,46 +141,40 @@ text-align: center;
     border-width: thin;
   }
 
-
   .loginform:first-child{
-background-color: blue;
+    background-color: blue;
     font-size: 24px;
-
   }
 
   .loginform :nth-child(2){
     font-size: 14px;
     font-weight: 300;
-outline:none;
+    outline:none;
     text-align: center;
     white-space:nowrap;
   }
 
   .loginform :nth-child(3){
-color: blue;
+    color: blue;
     font-size: 14px;
-margin-top: 0;
+    margin-top: 0;
     text-align: center;
-
     vertical-align: top;
-
   }
 
-
-
   .create_btn{
-background-color: #0077C5;
-border-radius: 4px;
-color:white;
+    background-color: #0077C5;
+    border-radius: 4px;
+    color:white;
     display: block;
     margin-left: auto;
     margin-right: auto;
-padding-bottom: 10px;
+    padding-bottom: 10px;
     padding-top: 10px;
-width: 326px;
+    width: 326px;
   }
 
-  /* CODE TO PLACE IN ORDER */
+  /* code to place in order */
   .input-text{
     box-sizing: border-box;
     color: #777777;
@@ -214,13 +202,11 @@ width: 326px;
     margin-bottom: 0;
     padding-bottom: 15px;
     padding-top: 15px;
-
   }
 
   .blue-text{
     color:blue;
   }
-
 
   .final-span-wrap{
     color:blue;
@@ -234,8 +220,6 @@ width: 326px;
     margin-top: 0;
     text-align: center;
     width:100%;
-
-
   }
 
   .second-final-line{
