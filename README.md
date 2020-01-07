@@ -1,7 +1,5 @@
 # MC-project2-HTMLForm
-
-
-## Microverse YouTube Project 2 - Collaborative
+## Microverse HTML Form Project 2 - Collaborative
 Collaborative Project with peer to create a sign up Intuit clone, using basic HTML and CSS.
 
 

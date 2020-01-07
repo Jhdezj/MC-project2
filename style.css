@@ -46,6 +46,14 @@ color:#505050;
   color:white;
 }
 
+.mint-flavicon-text{
+padding-bottom:5px;
+}
+
+.turbo-flavicon-text{
+padding-bottom:5px;
+}
+
 /* Login Form*/
 .title{
 font-size:24px;
@@ -123,6 +131,7 @@ font-size:24px;
   }
 
   .logo-links{
+    padding-bottom: 15px;
     text-align: center;
   }
 
@@ -130,8 +139,8 @@ font-size:24px;
     width:24px;
   }
 
-  resize-flav-text{
-    width:470px;
+  .resize-flav-text{
+    font-size: 16px;
   }
 
   .loginform{
