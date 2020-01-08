@@ -24,7 +24,7 @@ Collaborative Project with peer to create a sign up Intuit clone, using basic HT
 
 ## Live Demo
 
-- [Live Demo Link](https://rawcdn.githack.com/Jhdezj/MC-project2-HTMLForm/95b55bfeb206912b1f84c80bd9c3d818b5ed1fac/index.html)
+- [Live Demo Link](https://rawcdn.githack.com/Jhdezj/MC-project2-HTMLForm/cf22a8adc4c8327adf1b3b2a390f7825018aed37/index.html)
 
 
 ## Authors
