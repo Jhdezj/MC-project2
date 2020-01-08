@@ -1,7 +1,7 @@
 # MC-project2-HTMLForm
 ## Microverse HTML Form Project 2 - Collaborative
 Collaborative Project with peer to create a sign up Intuit clone, using basic HTML and CSS.
-![screenshot](images/screenshot1.png)
+![screenshot](images/screenshot.png)
 
 #### I. The main focus of the project was the creation of a standard form by using input fields, buttons and headings.
 
